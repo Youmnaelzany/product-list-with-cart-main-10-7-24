@@ -1,74 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Product list with cart</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  Desserts
+  <section class="">
+    <h1 class="">Desserts</h1>
+  </section>
 
-  Waffle with Berries
-  Waffle
-  6.50
-  Add to Cart
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-y-8 md:gap-x-6">
+    <section>
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-waffle-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-waffle-tablet.jpg">
+        <img src="/public/images/image-waffle-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="flex flex-col gap-1">
+        <h2 class="">Waffle</h2>
+        <h3 class="">Waffle with Berries</h3>
+        <h4 class="">6.50</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-creme-brulee-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-creme-brulee-tablet.jpg">
+        <img src="/public/images/image-creme-brulee-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2 class="">Crème Brûlée</h2>
+        <h3 class="">Vanilla Bean Crème Brûlée</h3>
+        <h4 class="">7.00</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-macaron-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-macaron-tablet.jpg">
+        <img src="/public/images/image-macaron-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2 class="">Macaron</h2>
+        <h3 class="">Macaron Mix of Five</h3>
+        <h4 class="">8.00</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-tiramisu-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-tiramisu-tablet.jpg">
+        <img src="/public/images/image-tiramisu-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2 class="">Tiramisu</h2>
+        <h3 class="">Classic Tiramisu</h3>
+        <h4 class="">5.50</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-baklava-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-baklava-tablet.jpg">
+        <img src="/public/images/image-baklava-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2 class="">Baklava</h2>
+        <h3 class="">Pistachio Baklava</h3>
+        <h4 class="">4.00</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-meringue-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-meringue-tablet.jpg">
+        <img src="/public/images/image-meringue-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2 class="">Pie</h2>
+        <h3 class="">Lemon Meringue Pie</h3>
+        <h4 class="">5.00</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-cake-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-cake-tablet.jpg">
+        <img src="/public/images/image-cake-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2>Cake</h2>
+        <h3 class="">Red Velvet Cake</h3>
+        <h4 class="">4.50</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/mage-brownie-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/mage-brownie-tablet.jpg">
+        <img src="/public/images/mage-brownie-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2 class="">Brownie</h2>
+        <h3 class="">Salted Caramel Brownie</h3>
+        <h4 class="">4.50</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+    <section class="">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/images/image-panna-cotta-desktop.jpg">
+        <source media="(min-width: 1440px)" srcset="/public/images/image-panna-cotta-tablet.jpg">
+        <img src="/public/images/image-panna-cotta-mobile.jpg" alt="" class="">
+      </picture>
+      <div class="">
+        <h2 class="">Panna Cotta</h2>
+        <h3 class="">Vanilla Panna Cotta</h3>
+        <h4 class="">6.50</h4>
+        <button type="button" class="">Add to Cart</button>
+      </div>
+    </section>
+  </section>
 
-  Vanilla Bean Crème Brûlée
-  Crème Brûlée
-  7.00
-  Add to Cart
+  <section class="">
+    <div class="">
+      <h2 class="">Your Cart (<!-- Quantity -->)</h2>
 
-  Macaron Mix of Five
-  Macaron
-  8.00
-  Add to Cart
-
-  Classic Tiramisu
-  Tiramisu
-  5.50
-  Add to Cart
-
-  Pistachio Baklava
-  Baklava
-  4.00
-  Add to Cart
-
-  Lemon Meringue Pie
-  Pie
-  5.00
-  Add to Cart
-
-  Red Velvet Cake
-  Cake
-  4.50
-  Add to Cart
-
-  Salted Caramel Brownie
-  Brownie
-  4.50
-  Add to Cart
-
-  Vanilla Panna Cotta
-  Panna Cotta
-  6.50
-  Add to Cart
-
-  Your Cart (<!-- Quantity -->)
-  Your added items will appear here
+    </div>
+    <div class="">
+      <img src="/public/images/illustration-empty-cart.svg" alt="" class="">
+      <h3 class="">Your added items will appear here</h3>
+    </div>
+  </section>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
